@@ -47,4 +47,13 @@ while True:
     else:
       print('Contraseña no es segura')   
 
+# Sacar las edad superiores a un rango
+
+lista_edades= [23, 25, 15, 98, 56, 78, 44, 42, 63, 4, 29]
+
+for edad in lista_edades:
+  if edad > 65:
+    continue
+    pass
+    break
 
